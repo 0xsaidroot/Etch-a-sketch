@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,21 @@
     <script src="script.js" defer></script>
     <title>Etch-a-Sketch</title>
 </head>
+
 <body>
-    <button id="btn">New Grid</button>
-    <div id="container"></div>
-    <button id="clear">Clear Grid</button>
+    <h1>Etch-my-Sketch</h1>
+    <div id="hero">
+        <div id="buttonBox">
+            <div id="top">
+                <h3 id="text"></h3>
+                <input type="range" id="slider" min="8" max="96" step="8" value="16">
+            </div>
+            <button id="rainBow">RainBow</button>
+            <button id="black">Black</button>
+            <button id="clear">Clear Grid</button>
+        </div>
+        <div id="container"></div>
+    </div>
 </body>
+
 </html>
