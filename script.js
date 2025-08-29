@@ -27,7 +27,7 @@ const buttonBox = document.querySelector('#buttonBox');
 const slider = document.querySelector('#slider');
 const text = document.querySelector('#text');
 let gridSize = slider.value;
-let blackColor = true;
+let blackColor = false;
 
 text.textContent = `Grid Size : ${gridSize}x${gridSize}`;
 createGrid(gridSize);
